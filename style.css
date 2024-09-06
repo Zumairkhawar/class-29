@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.murch{
+    display: flex;
+}
+.header{
+    overflow: scroll;
+    width: 30%;
+    float: left;
+    margin-left: 50px;
+}
+.logo  img{
+    width: 99px;
+    border-radius: 99px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.h h1{
+    text-align: center;
+    margin-top: 40px;
+}
+.nav ol li{
+    list-style: none;
+    vertical-align: middle;
+    margin-left: 100px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.nav ol li:hover{
+    border-bottom: 4px solid #000;
+    transition: 0.4s;
+    animation-name: car;
+    animation-duration: 7s;
+    animation-delay: 1s;
+}
+@keyframes car {
+    0%{
+        left: 0px;
+        background-color: papayawhip;
+    }
+    50%{
+        border-radius: 5px;
+    }
+    100%{
+        background-color: peachpuff;
+        left:1000px;
+        top: 300px;
+    }
+}
+.text p{
+    text-align: center;
+}
+.sec-1{
+    width: 70%;   
+}
+.images img{
+    width: 890px;
+    height: 800px;
+}
+.images h1{
+    bottom: 300px;
+    position: absolute;
+}
+.images h2{
+    bottom: 420px;
+    position: relative;
+}
+.cards{
+    width: 30%;
+    position: absolute;
+    top: 150px;
+    right: 400px;
+}
+.About h6{
+    margin-top: 5%;
+}
+.card{
+    width: 24%;
+    float: right;
+    margin: 3px;
+    border: 1px solid black;
+}
